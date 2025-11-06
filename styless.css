@@ -218,6 +218,22 @@ input:checked ~ label:not(.steps) span:before, input:checked ~ label:not(.steps)
 #about-your-destination section {
     padding: .5rem;
 }
+
+.skip-to-content-link{
+    background: #319795;
+    color: #fff;
+    font-weight: 700;
+    left: 50%;
+    padding: 4px;
+    position: absolute;
+    top: -40px;
+    transform: translateY(-100%);
+    text-decoration: none;
+    z-index: 100;
+
+
+
+}
 .plan a {
     background-color: var(--sunset-orange);
     color: var(--deep-navy);
